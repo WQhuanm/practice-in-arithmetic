@@ -2,39 +2,39 @@
 #include <stdio.h>
 #include<string.h>
 
-//    //printf¿ÉÊäÈë±äÁ¿£¬¼ÆËãÊ½£¬º¯Êý£¬³£Á¿µÈµÈ£¬²»½ö½öÊÇ±äÁ¿
+//    //printfå¯è¾“å…¥å˜é‡ï¼Œè®¡ç®—å¼ï¼Œå‡½æ•°ï¼Œå¸¸é‡ç­‰ç­‰ï¼Œä¸ä»…ä»…æ˜¯å˜é‡
 //int main()
 //{
 //    int a, b;
-//    printf("%d", 34 + 54); //Êä³öÎª88
+//    printf("%d", 34 + 54); //è¾“å‡ºä¸º88
 //    printf("%d", ADD(a, b));
 //
 //
 //}
 
-////Ê¹ÓÃÊýÑ§º¯ÊýÐèÒªÓÃÍ·ÎÄ¼þ#include <math.h>
+////ä½¿ç”¨æ•°å­¦å‡½æ•°éœ€è¦ç”¨å¤´æ–‡ä»¶#include <math.h>
 //#include <math.h>
 //int main()
 //{
-//	printf("%.5f", 1 + 2 * sprt(3) / (5 - 0.1));        //sprtÊÇ¿ªËãÊõÆ½·½¸ù£¬ÕâÀïsprt£¨3£©ÊÇ¸ùºÅ3µÄÒâË¼
+//	printf("%.5f", 1 + 2 * sprt(3) / (5 - 0.1));        //sqrtæ˜¯å¼€ç®—æœ¯å¹³æ–¹æ ¹ï¼Œè¿™é‡Œsqrtï¼ˆ3ï¼‰æ˜¯æ ¹å·3çš„æ„æ€
 //
 //
 //
 //}
 
 
-      //ÇóÔ²ÖùÃæ»ý
+      //æ±‚åœ†æŸ±é¢ç§¯
 #include <math.h>
 int main()
 {
-    double r, h;  //°ë¾¶Óë¸ß
-    const double pi = acos(-1.0);  // constÊÇÉùÃ÷³£Á¿£¨²»¿ÉÐÞ¸Ä£©£¬acosÊÇÊýÑ§º¯ÊýÇó·´ÓàÏÒ£¬´Ë´¦½á¹ûÎªÔ²ÖÜÂÊpi
+    double r, h;  //åŠå¾„ä¸Žé«˜
+    const double pi = acos(-1.0);  // constæ˜¯å£°æ˜Žå¸¸é‡ï¼ˆä¸å¯ä¿®æ”¹ï¼‰ï¼Œacosæ˜¯æ•°å­¦å‡½æ•°æ±‚åä½™å¼¦ï¼Œæ­¤å¤„ç»“æžœä¸ºåœ†å‘¨çŽ‡pi
     double S1, S2, S;
     scanf("%lf %lf", &r, &h);
     S1 = 2*pi * r * r;
-    S2 = 2 * pi * r * h;        //=²»ÊÇµÈÓÚ£¬ÊÇ¸³Öµ£¨×óÓÒ²»¿ÉÒÔµßµ¹£¬ÏÈ¼ÆËãÓÒ²à£¬ÔÙ¸³Öµ¸ø×ó²à£¬µÈÓÚÊÇ==£¬×óÓÒ¿ÉÒÔµßµ¹£©
+    S2 = 2 * pi * r * h;        //=ä¸æ˜¯ç­‰äºŽï¼Œæ˜¯èµ‹å€¼ï¼ˆå·¦å³ä¸å¯ä»¥é¢ å€’ï¼Œå…ˆè®¡ç®—å³ä¾§ï¼Œå†èµ‹å€¼ç»™å·¦ä¾§ï¼Œç­‰äºŽæ˜¯==ï¼Œå·¦å³å¯ä»¥é¢ å€’ï¼‰
     S = S1 + S2;
-    printf("Ãæ»ýÊÇ%.3lf", S);
+    printf("é¢ç§¯æ˜¯%.3lf", S);
 
 
     return 0;
